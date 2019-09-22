@@ -1,0 +1,55 @@
+a.khoinho{
+    width: 280px;
+    height:210px;
+    float: left;
+    background-color: coral;
+    display: block;
+    position: relative;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+    font-family: tahoma;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+a.khoinho .layer1{
+    width: 280px;
+}
+a.khoinho .layer2{
+    width: 280px;
+    height: 210px;
+   /* background-color: black;
+    opacity: 0.4;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0) 50%,rgba(0,0,0,0.61));/* mau nen lan toa, theo chieu tren xuong duoi*/
+    transition: 0.8s;
+}
+a.khoinho .layer2:hover{
+    opacity: 0;
+    transition: 0.2s;
+}
+a.khoinho .layer3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+    padding:8px 10px;/*tren duoi trai phai*/
+    transition: 0.8s;
+    opacity: 0;/* cho an dong chu*/
+    /* padding: 10px 20px; */
+}
+a.khoinho:hover .layer3{
+    bottom:10px;
+    opacity: 1;/* xuat hien chu*/
+    
+}
+main .h1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}

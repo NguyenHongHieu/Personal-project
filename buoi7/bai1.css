@@ -1,0 +1,98 @@
+*{padding :0;margin: 0;}
+.phan1{
+    background-image: url(a1.jpg);
+    height: 700px;
+    width:100%;
+    background-position-x: -200px;/*dich vi tri hinh nen sau*/
+    background-attachment: fixed;/*co dinh hinh nen*/
+}
+.chunho{
+    padding-top: 300px;
+    font-size: 20px;
+}
+.p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ndphan1{
+    width: 900px;
+    margin: auto;
+    text-align: right;
+    font-size: 40px;
+    color: balck;
+}
+.chulon{
+    font-size: 60px;
+    font-weight: bold;
+}
+a.shop{
+    background: black;
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    padding: 9px 22px;
+
+}
+.button1{
+    margin-top: 20px;
+}
+a.shop:hover{
+    background-color: transparent;
+    color:black;
+    border: 1px solid;
+}
+.phan2{
+    text-align: center;
+    background-image: url(a3.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+.phan2 .chulon, .phan4 .chulon{
+    color:white;
+    font-weight: bold;
+}
+.phan2 .chunho, .phan4 .chunho{
+    color:white;
+}
+.phan2 a.shop, .phan4 a.shop{
+    background: transparent;
+    color: white;
+    border: 1px solid;
+}
+.phan2 a.shop:hover, .phan4 a.shop:hover{
+    background: white;
+    color:black;
+}
+
+.phan4{
+    text-align: center;
+    background-image: url(a4.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+.phan3{
+    text-align: left;
+    background-image: url(a2.jpg);
+    background-attachment: fixed;
+    height: 700px;
+}
+.ndphan3{
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    font-size: 40px;
+    color: balck;
+    
+}
+.phan3 a.shop{
+    background: transparent;
+    color: black;
+    border: 1px solid;
+}
+.phan3 a.shop:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid;
+}
+

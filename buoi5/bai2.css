@@ -1,0 +1,23 @@
+body{
+    background: url(a3.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;/*trang man hinh*/
+    text-align: center;
+    color: white
+}
+.tieude{
+    font-size:100%;
+    letter-spacing: 10px;
+    margin-bottom:40px;
+    margin-top:40px;
+    text-shadow: 5px 2px rgba(0,255,0,0.3);
+
+}
+.main{
+    width:80%;
+    padding: 2em 2em 2em;
+    background-color: rgba(0,0,0,0.0.60);
+    border: #000 6px double;
+    box-shadow:5px 5px 5px 8px rgba(0, 0, 0, 0.603)
+    /*margin: 0em auto;*/
+}

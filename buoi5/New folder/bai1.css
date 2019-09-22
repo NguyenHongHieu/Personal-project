@@ -1,0 +1,36 @@
+.main{
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+.k1{
+    margin-left: 30px;
+}
+.k1 img{
+    height: 250px;
+    width: 300px;
+    transition: 2s;
+    border-radius: 30%;
+}
+.k1 a{
+    text-decoration: none; /* bo gach duoi*/
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.k1 a:hover{
+    color: red;
+}
+.c p{
+    background: hotpink;
+    width: 120px;
+    height: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: 90px;
+}
+.k1 img:hover{
+    opacity: 0.05;
+}

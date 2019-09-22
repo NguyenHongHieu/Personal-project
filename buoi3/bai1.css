@@ -1,0 +1,55 @@
+img{
+    width: 400px;
+    border: 2px solid gray;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 16px;
+
+}
+a:hover {
+    color: brown;
+}
+p{
+    font-family: tohoma;
+    text-align: justify;/*dinh dang deu 2 ben*/
+    font-size: 15px;
+}
+article{
+    width: 400px;
+    float: left;
+    padding-right: 100px;
+
+}
+.abc{
+    text-decoration: none;/*bo gach o link duoi chuot*/
+    font-size: 14px;
+    display: block;/*tao cac dong cach */
+    font-weight: normal;/* ko dam*/
+    background-image: url(a3.PNG);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.abc:hover{/* dua chuot*/
+    text-decoration: underline;/*tao gach duoi*/
+    color: cornflowerblue;
+}
+@font-face{
+    font-family: hieu;
+    src:url(RedstockScript-DEMO.ttf);
+}
+h1{
+    font-family: hieu;
+    font-size: 40px;
+}
+#a2{
+    width:35%;
+    float:right;
+}
+#a1{
+    width: 60%;
+    float:left;
+}
+

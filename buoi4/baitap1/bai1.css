@@ -1,0 +1,64 @@
+@font-face{
+    font-family: hieu;
+    src:url(Welcome.ttf);
+}
+h1{
+    font-family: hieu;
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.nhap{
+    width: 250px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+.container{
+    width: 300px;
+    background-color: gray;
+    margin:auto;
+    border: 3px ridge black;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    font-family: 'Segoe UI';
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.link:hover{
+    color: black;
+    text-decoration: underline;
+}
+.login{
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    padding-left: 10px;
+    background-color: blue;
+    color: white;
+}
+.login:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0.05s;
+}
+#a1{
+    padding-left: 55%;
+    margin-top: -40px;
+}
+body{
+    background-image: url("3.jpg ");
+    background-repeat: no-repeat;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+img{
+    width: 327px;
+    border: 2px solid goldenrod;
+}
+a{
+    text-decoration: none;
+    color:darkblue;
+    font-weight: bold;
+    font-size:14px;
+
+}
+a:hover{
+    color: chocolate;
+}
+article{
+    width: 330px;
+}
+p{
+    text-align: justify
+    font-size: 14px;
+}
