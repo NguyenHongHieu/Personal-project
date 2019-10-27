@@ -1,0 +1,61 @@
+
+p{
+    color:chartreuse;
+}
+.top .menu .logo{
+    background-color: red;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    padding: 18px 28px;
+    position: relation;
+    top:-8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.menu{
+    background-color: transparent;
+}
+.top .menu .menuright .nav-link{
+    color:white ;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+.top .menu .menuright .active .nav-link{
+    color:orange;
+}
+.nut{
+    color:white;
+    border:1px solid white;
+}
+.top .menu .menuright .nav-link:hover{
+    background-color: orangered;
+}
+.logo{
+    transition:0.5s;
+}
+.logo.maucam{
+    color: orange !important;
+}
+.navbar{
+    transition: 0.5s;
+}
+.top .navbar.nentrang{
+    background: white;
+}
+.top .menu .menuright .nav-link{
+    transition:0.5s;
+}
+.top .menu .menuright .nav-link.menucam{
+    color: black;
+    font-weight: 700;
+}
+.nuttop{
+    transition: 0.5s;
+    /* background: blue; */
+    opacity: 0;
+}
+.nuttop.hienthi{
+    opacity:1;
+
+}
+
